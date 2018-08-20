@@ -10,7 +10,7 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/fdoulloa/Documents/Programador"
+      "/Users/fdoulloa/Documents/example"
     ]
   ],
   "_from": "cordova-plugin-ionic-webview@>=2.0.0 <3.0.0",
@@ -45,7 +45,7 @@
   "_shasum": "c46b0a7b7295efe4c3d7620f44c3a297b77bab5f",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-ionic-webview@^2.0.0",
-  "_where": "/Users/fdoulloa/Documents/Programador",
+  "_where": "/Users/fdoulloa/Documents/example",
   "author": {
     "name": "Ionic Team"
   },

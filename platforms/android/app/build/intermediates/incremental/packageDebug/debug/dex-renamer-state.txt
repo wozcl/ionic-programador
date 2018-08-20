@@ -1,4 +1,4 @@
-#Mon Aug 13 12:41:35 CLST 2018
-base.0=/Users/fdoulloa/Documents/Programador/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Aug 20 10:25:58 CLST 2018
+base.0=/Users/fdoulloa/Documents/example/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
-file.0=/Users/fdoulloa/Documents/Programador/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+file.0=/Users/fdoulloa/Documents/example/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

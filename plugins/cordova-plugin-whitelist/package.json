@@ -10,7 +10,7 @@
         "spec": "1.3.3",
         "type": "version"
       },
-      "/Users/fdoulloa/Documents/Programador"
+      "/Users/fdoulloa/Documents/example"
     ]
   ],
   "_from": "cordova-plugin-whitelist@1.3.3",
@@ -45,7 +45,7 @@
   "_shasum": "b5e85ecdbbfe5aeded40a1bf4ee2372e67d96fb4",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-whitelist@1.3.3",
-  "_where": "/Users/fdoulloa/Documents/Programador",
+  "_where": "/Users/fdoulloa/Documents/example",
   "author": {
     "name": "Apache Software Foundation"
   },

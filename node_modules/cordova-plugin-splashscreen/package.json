@@ -10,7 +10,7 @@
         "spec": "5.0.2",
         "type": "version"
       },
-      "/Users/fdoulloa/Documents/Programador"
+      "/Users/fdoulloa/Documents/example"
     ]
   ],
   "_from": "cordova-plugin-splashscreen@5.0.2",
@@ -45,7 +45,7 @@
   "_shasum": "747e74f56e201cd585bc62d14bca19f6867ff1ed",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-splashscreen@5.0.2",
-  "_where": "/Users/fdoulloa/Documents/Programador",
+  "_where": "/Users/fdoulloa/Documents/example",
   "author": {
     "name": "Apache Software Foundation"
   },

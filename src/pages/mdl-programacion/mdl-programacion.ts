@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, Nav } from 'ionic-angular';
+import { PrincipalPage } from '../principal/principal';
 
 /**
  * Generated class for the MdlProgramacionPage page.
@@ -8,20 +9,31 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-mdl-programacion',
   templateUrl: 'mdl-programacion.html',
 })
-export class MdlProgramacionPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+export class MdlProgramacionPage {
+  @ViewChild(Nav) nav: Nav;
+
+
+  constructor(public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MdlProgramacionPage');
   }
 
+  goHome(){
+    this.nav.setRoot(PrincipalPage)
+  }
+
+
+  }
+
+  
+
 
    
-}

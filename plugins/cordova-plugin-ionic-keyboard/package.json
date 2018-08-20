@@ -10,7 +10,7 @@
         "spec": ">=2.0.5 <3.0.0",
         "type": "range"
       },
-      "/Users/fdoulloa/Documents/Programador"
+      "/Users/fdoulloa/Documents/example"
     ]
   ],
   "_from": "cordova-plugin-ionic-keyboard@>=2.0.5 <3.0.0",
@@ -45,7 +45,7 @@
   "_shasum": "6d91bac2b5aba578dcccfd63e61b0960c33f9e4a",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-ionic-keyboard@^2.0.5",
-  "_where": "/Users/fdoulloa/Documents/Programador",
+  "_where": "/Users/fdoulloa/Documents/example",
   "author": {
     "name": "Apache Software Foundation"
   },
