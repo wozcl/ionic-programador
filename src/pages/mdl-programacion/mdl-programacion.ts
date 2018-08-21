@@ -26,8 +26,9 @@ export class MdlProgramacionPage {
     console.log('ionViewDidLoad MdlProgramacionPage');
   }
 
-  goHome(){
-    this.nav.setRoot(PrincipalPage)
+  goToPrincipal(params){
+    if (!params) params = {};
+    this.navCtrl.push(PrincipalPage);
   }
 
 
