@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { PrincipalPage } from '../principal/principal';
 /**
  * Generated class for the PrgPedidoDiaPage page.
  *
@@ -20,6 +20,11 @@ export class PrgPedidoDiaPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PrgPedidoDiaPage');
+  }
+  
+  goToPrincipal(params){
+    if (!params) params = {};
+    this.navCtrl.push(PrincipalPage);
   }
 
 }
