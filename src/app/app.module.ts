@@ -16,6 +16,7 @@ import { PrgPedidoDiaPage } from '../pages/prg-pedido-dia/prg-pedido-dia';
 import { PrgPedidoHorarioPage } from '../pages/prg-pedido-horario/prg-pedido-horario'
 import { PrgPedidoConfirmacionPage } from '../pages/prg-pedido-confirmacion/prg-pedido-confirmacion'
 import { PrgPedidoErrorPage } from '../pages/prg-pedido-error/prg-pedido-error'
+import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PrgPedidoErrorPage } from '../pages/prg-pedido-error/prg-pedido-error'
     PrgPedidoDiaPage,
     PrgPedidoHorarioPage,
     PrgPedidoConfirmacionPage,
-    PrgPedidoErrorPage
+    PrgPedidoErrorPage,
+    PrgProgramadosPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { PrgPedidoErrorPage } from '../pages/prg-pedido-error/prg-pedido-error'
     PrgPedidoDiaPage,
     PrgPedidoHorarioPage,
     PrgPedidoConfirmacionPage,
-    PrgPedidoErrorPage
+    PrgPedidoErrorPage,
+    PrgProgramadosPage
   ],
   providers: [
     StatusBar,
