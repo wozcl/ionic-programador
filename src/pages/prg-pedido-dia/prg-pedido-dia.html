@@ -11,7 +11,7 @@
 	      <ion-icon name="menu"></ion-icon>
 	    </button>
 	  </ion-buttons>
-	  <ion-title>Hacer Pedido</ion-title>
+	  <ion-title center>Selección</ion-title>
 	  <ion-buttons right>
         <button ion-button on-click="goToPrincipal()">
             <ion-icon name="home"></ion-icon>
@@ -20,7 +20,165 @@
 	</ion-toolbar>
 </ion-header>
 
-
-<ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" padding>
-
+<ion-content padding>
+	<ion-content padding background-color="white">			
+				<div class="col-12 offset-0 col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion">	
+					<div class="col-12 formulario-elegir margin-bottom-30">
+						<h4 class="bajada-form text-center padding-top-10">Elegir día</h4>		
+						<form class="was-validated">
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked-1" required >
+								<label class="custom-control-label" for="customControlValidation1">Lunes 13</label>
+							</div>
+		
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked-1" required>
+								<label class="custom-control-label" for="customControlValidation2">Martes 14</label>
+							</div>
+		
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked-1" required>
+								<label class="custom-control-label" for="customControlValidation3">Miercoles 15</label>
+							</div>
+		
+						</form>
+					</div>
+		
+					<hr class="hr-verde">
+		
+					<div class="margin-bottom-30 col-12">
+						<h4 class="bajada-form text-center">Elegir Material</h4>			
+						<form class="">
+							<div class="opcion_m">
+								<select class="form-control">
+									<option disabled selected hidden>Producto</option>
+									<option>opcion 1</option>
+									<option>opcion 2</option>
+									<option>opcion 3</option>
+								</select>
+							</div>
+		
+							<div class="opcion_m">
+								<input type="text" class="form-control" placeholder="Volumen">
+							</div>
+							
+							<div class="opcion_m">
+								<select class="form-control">
+									<option disabled selected hidden>Elemento</option>
+									<option>opcion 1</option>
+									<option>opcion 2</option>
+									<option>opcion 3</option>
+								</select>
+							</div>
+						</form>
+					</div>
+					
+					<hr class="hr-verde">
+		
+					<div class="margin-bottom-30 col-12 formulario-elegir">
+						<h4 class="bajada-form text-center">Distribuir Carga</h4>
+						<form class="was-validated">
+							<h6 class="">Distribuir carga?</h6>
+							<div class="custom-control custom-radio custom-control-inline">
+								<input type="radio" class="custom-control-input" id="customControlValidation00" name="radio-stacked-00" required >
+								<label class="custom-control-label" for="customControlValidation00">Si</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+								<input type="radio" class="custom-control-input" id="customControlValidation01" name="radio-stacked-00" required>
+								<label class="custom-control-label" for="customControlValidation01">No</label>
+							</div>
+						</form>
+		
+						<form class="margin-top-20 padding-bottom-10">
+							<div class="distribuir">
+								<label class="camion">Camión 1</label>
+								<select class="form-control" disabled>
+										<option>7m3</option>
+										<option>opcion 1</option>
+										<option>opcion 2</option>
+										<option>opcion 3</option>
+								</select>
+							</div>
+		
+							<div class="distribuir">
+								<label>Camión 2</label>
+								<select class="form-control" disabled>
+										<option>7m3</option>
+										<option>opcion 1</option>
+										<option>opcion 2</option>
+										<option>opcion 3</option>
+								</select>
+							</div>
+		
+						</form>	
+					</div>
+		
+					<hr class="hr-verde">
+		
+					<div class="padding-bottom-20 col-12">
+						<h4 class="bajada-form text-center">Elegir Horario</h4>		
+						<div class="distribuir">
+							<label>Seleccione Horario</label>
+							<select class="form-control">
+								<option disabled selected hidden>Horario</option>
+								<option>opcion 1</option>
+								<option>opcion 2</option>
+								<option>opcion 3</option>
+							</select>
+						</div>
+						
+						<div class="distribuir">
+							<label>Seleccione Frecuencia</label>
+							<select class="form-control">
+								<option disabled selected hidden>Frecuencia</option>
+								<option>opcion 1</option>
+								<option>opcion 2</option>
+								<option>opcion 3</option>
+							</select>
+						</div>
+					</div>
+		
+					<hr class="hr-verde">
+		
+					<div class="formulario-elegir margin-bottom-30 col-12">
+						<h4 class="bajada-form text-center">Elegir Servicios</h4>
+						<form class="was-validated">
+							<div class="col  margin-bottom-20">
+								<h6>Bomba:</h6>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-stacked-3" required >
+									<label class="custom-control-label" for="customControlValidation4">Si</label>
+								</div>
+		
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-stacked-3" required>
+									<label class="custom-control-label" for="customControlValidation5">No</label>
+								</div>
+							</div>
+							
+							<div class="col margin-bottom-30">
+								<h6>Muestra de Laboratorio:</h6>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" class="custom-control-input" id="customControlValidation6" name="radio-stacked-4" required >
+									<label class="custom-control-label" for="customControlValidation6">Si</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" class="custom-control-input" id="customControlValidation7" name="radio-stacked-4" required>
+									<label class="custom-control-label" for="customControlValidation7">No</label>
+								</div>
+							</div>
+		
+							<hr class="hr-verde">
+		
+							<div class="formulario-elegir padding-top-10 margin-bottom-30">
+								<a class="btn-select-verde" on-click="goToPrgPedidoHorario()">
+									Siguiente
+								</a>
+							</div>
+		
+						</form>
+					</div>
+							
+				</div>
+			</ion-content>	
 </ion-content>

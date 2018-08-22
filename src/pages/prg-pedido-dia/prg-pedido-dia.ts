@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PrgPedidoHorarioPage } from '../prg-pedido-horario/prg-pedido-horario';
 import { PrincipalPage } from '../principal/principal';
 /**
  * Generated class for the PrgPedidoDiaPage page.
@@ -22,9 +23,13 @@ export class PrgPedidoDiaPage {
     console.log('ionViewDidLoad PrgPedidoDiaPage');
   }
   
+  goToPrgPedidoHorario(params){
+    if (!params) params = {};
+    this.navCtrl.push(PrgPedidoHorarioPage);
+  }
+
   goToPrincipal(params){
     if (!params) params = {};
     this.navCtrl.push(PrincipalPage);
   }
-
 }

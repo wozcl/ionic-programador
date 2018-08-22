@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 273:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPedidoDiaPageModule", function() { return PrgPedidoDiaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPedidoHorarioPageModule", function() { return PrgPedidoHorarioPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PrgPedidoDiaPageModule = /** @class */ (function () {
-    function PrgPedidoDiaPageModule() {
+var PrgPedidoHorarioPageModule = /** @class */ (function () {
+    function PrgPedidoHorarioPageModule() {
     }
-    PrgPedidoDiaPageModule = __decorate([
+    PrgPedidoHorarioPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__["a" /* PrgPedidoDiaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario__["a" /* PrgPedidoHorarioPage */]),
             ],
         })
-    ], PrgPedidoDiaPageModule);
-    return PrgPedidoDiaPageModule;
+    ], PrgPedidoHorarioPageModule);
+    return PrgPedidoHorarioPageModule;
 }());
 
-//# sourceMappingURL=prg-pedido-dia.module.js.map
+//# sourceMappingURL=prg-pedido-horario.module.js.map
 
 /***/ })
 
