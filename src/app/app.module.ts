@@ -13,10 +13,12 @@ import { LoginPage } from '../pages/login/login';
 import { PrincipalPage } from '../pages/principal/principal';
 import { MdlProgramacionPage } from '../pages/mdl-programacion/mdl-programacion';
 import { PrgPedidoDiaPage } from '../pages/prg-pedido-dia/prg-pedido-dia';
-import { PrgPedidoHorarioPage } from '../pages/prg-pedido-horario/prg-pedido-horario'
-import { PrgPedidoConfirmacionPage } from '../pages/prg-pedido-confirmacion/prg-pedido-confirmacion'
-import { PrgPedidoErrorPage } from '../pages/prg-pedido-error/prg-pedido-error'
-import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados'
+import { PrgPedidoHorarioPage } from '../pages/prg-pedido-horario/prg-pedido-horario';
+import { PrgPedidoConfirmacionPage } from '../pages/prg-pedido-confirmacion/prg-pedido-confirmacion';
+import { PrgPedidoErrorPage } from '../pages/prg-pedido-error/prg-pedido-error';
+import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados';
+import { PrgProgramados2Page } from '../pages/prg-programados2/prg-programados2';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados'
     PrgPedidoHorarioPage,
     PrgPedidoConfirmacionPage,
     PrgPedidoErrorPage,
-    PrgProgramadosPage
+    PrgProgramadosPage,
+    PrgProgramados2Page,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados'
     PrgPedidoHorarioPage,
     PrgPedidoConfirmacionPage,
     PrgPedidoErrorPage,
-    PrgProgramadosPage
+    PrgProgramadosPage,
+    PrgProgramados2Page,
   ],
   providers: [
     StatusBar,

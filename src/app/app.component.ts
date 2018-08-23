@@ -7,6 +7,7 @@ import { PrincipalPage } from '../pages/principal/principal';
 import { LoginPage } from '../pages/login/login';
 import { PrgPedidoDiaPage } from '../pages/prg-pedido-dia/prg-pedido-dia';
 import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados';
+import { PrgProgramados2Page } from '../pages/prg-programados2/prg-programados2';
 
 @Component({
   templateUrl: 'app.html'

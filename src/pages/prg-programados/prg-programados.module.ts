@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import { IonicPageModule,NavController } from 'ionic-angular';
 import { PrgProgramadosPage } from './prg-programados';
 
 @NgModule({

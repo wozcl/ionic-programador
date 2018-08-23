@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 276:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPedidoConfirmacionPageModule", function() { return PrgPedidoConfirmacionPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPedidoErrorPageModule", function() { return PrgPedidoErrorPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_error__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PrgPedidoConfirmacionPageModule = /** @class */ (function () {
-    function PrgPedidoConfirmacionPageModule() {
+var PrgPedidoErrorPageModule = /** @class */ (function () {
+    function PrgPedidoErrorPageModule() {
     }
-    PrgPedidoConfirmacionPageModule = __decorate([
+    PrgPedidoErrorPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
+                __WEBPACK_IMPORTED_MODULE_2__prg_pedido_error__["a" /* PrgPedidoErrorPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_pedido_error__["a" /* PrgPedidoErrorPage */]),
             ],
         })
-    ], PrgPedidoConfirmacionPageModule);
-    return PrgPedidoConfirmacionPageModule;
+    ], PrgPedidoErrorPageModule);
+    return PrgPedidoErrorPageModule;
 }());
 
-//# sourceMappingURL=prg-pedido-confirmacion.module.js.map
+//# sourceMappingURL=prg-pedido-error.module.js.map
 
 /***/ })
 

@@ -5,7 +5,7 @@
           <ion-icon name="menu"></ion-icon>
         </button>
       </ion-buttons>
-      <ion-title center>PEDIDOS PROGRAMADOS</ion-title>
+      <ion-title center>PROGRAMADOS Hoy</ion-title>
       <ion-buttons right>
           <button ion-button on-click="goToPrincipal()">
               <ion-icon name="home"></ion-icon>
@@ -15,20 +15,21 @@
 </ion-header>
 
 
-<ion-content>
-  
+<ion-content>   
+     
+      
       <ul class="nav nav-tabs nav-fill" id="tab-menu" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="fecha-uno-tab" data-toggle="tab" href="#fecha-uno" role="tab" aria-controls="home" aria-selected="true">Hoy</a>
+            <a class="nav-link active" on-click="goToTab1()" id="fecha-uno-tab" data-toggle="tab"  role="tab" aria-controls="home" aria-selected="true">Hoy</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="fecha-dos-tab" data-toggle="tab" href="#fecha-dos" role="tab" aria-controls="profile" aria-selected="false"><span class="dia-opcion">Martes</span> 13</a>
+            <a class="nav-link"  on-click="goToTab2()" id="fecha-dos-tab" data-toggle="tab"  role="tab" aria-controls="profile" aria-selected="false"><span class="dia-opcion">Martes</span> 13</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="fecha-tres-tab" data-toggle="tab" href="#fecha-tres" role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Miercoles</span> 14</a>
+            <a class="nav-link" on-click="goToTab3()" id="fecha-tres-tab" data-toggle="tab"  role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Miercoles</span> 14</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="fecha-cuatro-tab" data-toggle="tab" href="#fecha-cuatro" role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Jueves</span> 15</a>
+            <a class="nav-link" id="fecha-cuatro-tab" data-toggle="tab"  role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Jueves</span> 15</a>
         </li>
       </ul>
   
@@ -36,7 +37,7 @@
   
         <!-- Inicio Tab uno -->
         <div class="tab-pane fade show active" id="fecha-uno" role="tabpanel" aria-labelledby="fecha-uno">
-            <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">
+          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">
             <div class="row resultado justify-content-center">
               <div class="col-12">
                 <ul class="list-group">
@@ -63,12 +64,10 @@
                       <i class="fas fa-chevron-circle-right"></i>
                     </a>
                   </li>
-                  
                 </ul>	
-                  </div>
-                  
               </div>
             </div>
+          </div>
         </div>
         
         <!-- fin tab-uno -->
@@ -119,10 +118,9 @@
                     </a>
                   </li>
                 </ul>	
-                  </div>
-                  
               </div>
             </div>
+          </div>
         </div><!-- fin tab-dos -->
         
         <div class="tab-pane fade" id="fecha-tres" role="tabpanel" aria-labelledby="fecha-tres">
@@ -154,11 +152,9 @@
                     </a>
                   </li>
                 </ul>	
-                  </div>
-                  
               </div>
             </div>
-          
+          </div>
         </div>
         
         <div class="tab-pane fade" id="fecha-cuatro" role="tabpanel" aria-labelledby="fecha-cuatro">
@@ -182,6 +178,7 @@
             </div>
         </div>
       </div>
-  
+      
+
 
 </ion-content>
