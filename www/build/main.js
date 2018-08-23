@@ -1,4 +1,4 @@
-webpackJsonp([4],{
+webpackJsonp([5],{
 
 /***/ 100:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6,9 +6,9 @@ webpackJsonp([4],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoConfirmacionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_error_prg_pedido_error__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -48,12 +48,11 @@ var PrgPedidoConfirmacionPage = /** @class */ (function () {
     };
     PrgPedidoConfirmacionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-prg-pedido-confirmacion',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-confirmacion/prg-pedido-confirmacion.html"*/'<ion-header>\n    <ion-toolbar>\n      <ion-buttons left>\n        <button ion-button left menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title center>CONFIRMACION</ion-title>\n      <ion-buttons right>\n          <button ion-button on-click="goToPrincipal()">\n              <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n    </ion-toolbar>\n</ion-header>\n<ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n  <section>\n          <div class="col-10 offset-1 offset-md-2 offset-lg-3 offset-xl-3 col-md-8 col-lg-6 col-xl-6 login">\n            <div class="row">\n              <div class="col-12 login-input text-center confirmar">\n                <h4>Confirmación de pedido</h4>\n                <h5><b>Lunes 13, 11:00 cada 40 min.</b></h5>\n                <p>11 m3 de S120(50)70-07 con cargas repartidas para muro.</p>\n                <p class="margin-bottom-0"><b>Solicita bomba</b></p>\n                \n                <div class="col-12" >\n                  <a on-click="goToPrgPedidoError()" class="form-control btn-select-verde margin-top-20">Confirmar</a>\n                </div>\n                \n                <div class="col-12 margin-bottom-20">\n                  <a class="modificar btn-select-link margin-top-20">Modificar</a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n\n</ion-content>'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-confirmacion/prg-pedido-confirmacion.html"*/,
+            selector: 'page-prg-pedido-confirmacion',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-confirmacion\prg-pedido-confirmacion.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-buttons left>\n\n        <button ion-button left menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title center>CONFIRMACION</ion-title>\n\n      <ion-buttons right>\n\n          <button ion-button on-click="goToPrincipal()">\n\n              <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n    </ion-toolbar>\n\n</ion-header>\n\n<ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n\n  <section>\n\n          <div class="col-10 offset-1 offset-md-2 offset-lg-3 offset-xl-3 col-md-8 col-lg-6 col-xl-6 login">\n\n            <div class="row">\n\n              <div class="col-12 login-input text-center confirmar">\n\n                <h4>Confirmación de pedido</h4>\n\n                <h5><b>Lunes 13, 11:00 cada 40 min.</b></h5>\n\n                <p>11 m3 de S120(50)70-07 con cargas repartidas para muro.</p>\n\n                <p class="margin-bottom-0"><b>Solicita bomba</b></p>\n\n                \n\n                <div class="col-12" >\n\n                  <a on-click="goToPrgPedidoError()" class="form-control btn-select-verde margin-top-20">Confirmar</a>\n\n                </div>\n\n                \n\n                <div class="col-12 margin-bottom-20">\n\n                  <a class="modificar btn-select-link margin-top-20">Modificar</a>\n\n                </div>\n\n              </div>\n\n            </div>\n\n          </div>\n\n        </section>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-confirmacion\prg-pedido-confirmacion.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], PrgPedidoConfirmacionPage);
     return PrgPedidoConfirmacionPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=prg-pedido-confirmacion.js.map
@@ -66,8 +65,8 @@ var PrgPedidoConfirmacionPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoErrorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -104,12 +103,11 @@ var PrgPedidoErrorPage = /** @class */ (function () {
     };
     PrgPedidoErrorPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-prg-pedido-error',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-error/prg-pedido-error.html"*/'<!--\n  Generated template for the PrgPedidoErrorPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>ERROR</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n\n    <section>\n        <div class="col-10 offset-1 offset-md-2 offset-lg-3 offset-xl-3 col-md-8 col-lg-6 col-xl-6 login">\n          <div class="row">\n            <div class="col-12 login-input text-center confirmar">\n              <h4>Problemas de Programación</h4>\n              <h5 class="margin-bottom-20"><b>Su <span class="color-naranjo-font">línea de credito está vencida,</span> por lo que no podrá realizar pedidos.</b></h5>\n              <p class="margin-bottom-20">Le sugerimos que regularice la situación con su ejecutivo.</p>\n              \n              <hr>\n  \n              <div class="col-12  margin-top-30 margin-bottom-20" >\n                <a on-click="goToMenu()" class="form-control btn-select-verde margin-top-20">Entendido</a>\n              </div>\n              \n            </div>\n          </div>\n        </div>\n      </section>\n\n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-error/prg-pedido-error.html"*/,
+            selector: 'page-prg-pedido-error',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-error\prg-pedido-error.html"*/'<!--\n\n  Generated template for the PrgPedidoErrorPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>ERROR</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n\n\n\n    <section>\n\n        <div class="col-10 offset-1 offset-md-2 offset-lg-3 offset-xl-3 col-md-8 col-lg-6 col-xl-6 login">\n\n          <div class="row">\n\n            <div class="col-12 login-input text-center confirmar">\n\n              <h4>Problemas de Programación</h4>\n\n              <h5 class="margin-bottom-20"><b>Su <span class="color-naranjo-font">línea de credito está vencida,</span> por lo que no podrá realizar pedidos.</b></h5>\n\n              <p class="margin-bottom-20">Le sugerimos que regularice la situación con su ejecutivo.</p>\n\n              \n\n              <hr>\n\n  \n\n              <div class="col-12  margin-top-30 margin-bottom-20" >\n\n                <a on-click="goToMenu()" class="form-control btn-select-verde margin-top-20">Entendido</a>\n\n              </div>\n\n              \n\n            </div>\n\n          </div>\n\n        </div>\n\n      </section>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-error\prg-pedido-error.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], PrgPedidoErrorPage);
     return PrgPedidoErrorPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=prg-pedido-error.js.map
@@ -122,9 +120,9 @@ var PrgPedidoErrorPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoDiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -164,12 +162,11 @@ var PrgPedidoDiaPage = /** @class */ (function () {
     };
     PrgPedidoDiaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-prg-pedido-dia',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-dia/prg-pedido-dia.html"*/'<!--\n  Generated template for the PrgPedidoDiaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n	<ion-toolbar>\n	  <ion-buttons left>\n	    <button ion-button left menuToggle>\n	      <ion-icon name="menu"></ion-icon>\n	    </button>\n	  </ion-buttons>\n	  <ion-title center>Selección</ion-title>\n	  <ion-buttons right>\n        <button ion-button on-click="goToPrincipal()">\n            <ion-icon name="home"></ion-icon>\n        </button>\n      </ion-buttons>\n	</ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n	<ion-content padding background-color="white">			\n				<div class="col-12 offset-0 col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion">	\n					<div class="col-12 formulario-elegir margin-bottom-30">\n						<h4 class="bajada-form text-center padding-top-10">Elegir día</h4>		\n						<form class="was-validated">\n							<div class="custom-control custom-radio">\n								<input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked-1" required >\n								<label class="custom-control-label" for="customControlValidation1">Lunes 13</label>\n							</div>\n		\n							<div class="custom-control custom-radio">\n								<input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked-1" required>\n								<label class="custom-control-label" for="customControlValidation2">Martes 14</label>\n							</div>\n		\n							<div class="custom-control custom-radio">\n								<input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked-1" required>\n								<label class="custom-control-label" for="customControlValidation3">Miercoles 15</label>\n							</div>\n		\n						</form>\n					</div>\n		\n					<hr class="hr-verde">\n		\n					<div class="margin-bottom-30 col-12">\n						<h4 class="bajada-form text-center">Elegir Material</h4>			\n						<form class="">\n							<div class="opcion_m">\n								<select class="form-control">\n									<option disabled selected hidden>Producto</option>\n									<option>opcion 1</option>\n									<option>opcion 2</option>\n									<option>opcion 3</option>\n								</select>\n							</div>\n		\n							<div class="opcion_m">\n								<input type="text" class="form-control" placeholder="Volumen">\n							</div>\n							\n							<div class="opcion_m">\n								<select class="form-control">\n									<option disabled selected hidden>Elemento</option>\n									<option>opcion 1</option>\n									<option>opcion 2</option>\n									<option>opcion 3</option>\n								</select>\n							</div>\n						</form>\n					</div>\n					\n					<hr class="hr-verde">\n		\n					<div class="margin-bottom-30 col-12 formulario-elegir">\n						<h4 class="bajada-form text-center">Distribuir Carga</h4>\n						<form class="was-validated">\n							<h6 class="">Distribuir carga?</h6>\n							<div class="custom-control custom-radio custom-control-inline">\n								<input type="radio" class="custom-control-input" id="customControlValidation00" name="radio-stacked-00" required >\n								<label class="custom-control-label" for="customControlValidation00">Si</label>\n							</div>\n							<div class="custom-control custom-radio custom-control-inline">\n								<input type="radio" class="custom-control-input" id="customControlValidation01" name="radio-stacked-00" required>\n								<label class="custom-control-label" for="customControlValidation01">No</label>\n							</div>\n						</form>\n		\n						<form class="margin-top-20 padding-bottom-10">\n							<div class="distribuir">\n								<label class="camion">Camión 1</label>\n								<select class="form-control" disabled>\n										<option>7m3</option>\n										<option>opcion 1</option>\n										<option>opcion 2</option>\n										<option>opcion 3</option>\n								</select>\n							</div>\n		\n							<div class="distribuir">\n								<label>Camión 2</label>\n								<select class="form-control" disabled>\n										<option>7m3</option>\n										<option>opcion 1</option>\n										<option>opcion 2</option>\n										<option>opcion 3</option>\n								</select>\n							</div>\n		\n						</form>	\n					</div>\n		\n					<hr class="hr-verde">\n		\n					<div class="padding-bottom-20 col-12">\n						<h4 class="bajada-form text-center">Elegir Horario</h4>		\n						<div class="distribuir">\n							<label>Seleccione Horario</label>\n							<select class="form-control">\n								<option disabled selected hidden>Horario</option>\n								<option>opcion 1</option>\n								<option>opcion 2</option>\n								<option>opcion 3</option>\n							</select>\n						</div>\n						\n						<div class="distribuir">\n							<label>Seleccione Frecuencia</label>\n							<select class="form-control">\n								<option disabled selected hidden>Frecuencia</option>\n								<option>opcion 1</option>\n								<option>opcion 2</option>\n								<option>opcion 3</option>\n							</select>\n						</div>\n					</div>\n		\n					<hr class="hr-verde">\n		\n					<div class="formulario-elegir margin-bottom-30 col-12">\n						<h4 class="bajada-form text-center">Elegir Servicios</h4>\n						<form class="was-validated">\n							<div class="col  margin-bottom-20">\n								<h6>Bomba:</h6>\n								<div class="custom-control custom-radio custom-control-inline">\n									<input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-stacked-3" required >\n									<label class="custom-control-label" for="customControlValidation4">Si</label>\n								</div>\n		\n								<div class="custom-control custom-radio custom-control-inline">\n									<input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-stacked-3" required>\n									<label class="custom-control-label" for="customControlValidation5">No</label>\n								</div>\n							</div>\n							\n							<div class="col margin-bottom-30">\n								<h6>Muestra de Laboratorio:</h6>\n								<div class="custom-control custom-radio custom-control-inline">\n									<input type="radio" class="custom-control-input" id="customControlValidation6" name="radio-stacked-4" required >\n									<label class="custom-control-label" for="customControlValidation6">Si</label>\n								</div>\n								<div class="custom-control custom-radio custom-control-inline">\n									<input type="radio" class="custom-control-input" id="customControlValidation7" name="radio-stacked-4" required>\n									<label class="custom-control-label" for="customControlValidation7">No</label>\n								</div>\n							</div>\n		\n							<hr class="hr-verde">\n		\n							<div class="formulario-elegir padding-top-10 margin-bottom-30">\n								<a class="btn-select-verde" on-click="goToPrgPedidoHorario()">\n									Siguiente\n								</a>\n							</div>\n		\n						</form>\n					</div>\n							\n				</div>\n			</ion-content>	\n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-dia/prg-pedido-dia.html"*/,
+            selector: 'page-prg-pedido-dia',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-dia\prg-pedido-dia.html"*/'<!--\n\n  Generated template for the PrgPedidoDiaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n	<ion-toolbar>\n\n	  <ion-buttons left>\n\n	    <button ion-button left menuToggle>\n\n	      <ion-icon name="menu"></ion-icon>\n\n	    </button>\n\n	  </ion-buttons>\n\n	  <ion-title center>Selección</ion-title>\n\n	  <ion-buttons right>\n\n        <button ion-button on-click="goToPrincipal()">\n\n            <ion-icon name="home"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n	</ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n	<ion-content padding background-color="white">			\n\n				<div class="col-12 offset-0 col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion">	\n\n					<div class="col-12 formulario-elegir margin-bottom-30">\n\n						<h4 class="bajada-form text-center padding-top-10">Elegir día</h4>		\n\n						<form class="was-validated">\n\n							<div class="custom-control custom-radio">\n\n								<input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked-1" required >\n\n								<label class="custom-control-label" for="customControlValidation1">Lunes 13</label>\n\n							</div>\n\n		\n\n							<div class="custom-control custom-radio">\n\n								<input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked-1" required>\n\n								<label class="custom-control-label" for="customControlValidation2">Martes 14</label>\n\n							</div>\n\n		\n\n							<div class="custom-control custom-radio">\n\n								<input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked-1" required>\n\n								<label class="custom-control-label" for="customControlValidation3">Miercoles 15</label>\n\n							</div>\n\n		\n\n						</form>\n\n					</div>\n\n		\n\n					<hr class="hr-verde">\n\n		\n\n					<div class="margin-bottom-30 col-12">\n\n						<h4 class="bajada-form text-center">Elegir Material</h4>			\n\n						<form class="">\n\n							<div class="opcion_m">\n\n								<select class="form-control">\n\n									<option disabled selected hidden>Producto</option>\n\n									<option>opcion 1</option>\n\n									<option>opcion 2</option>\n\n									<option>opcion 3</option>\n\n								</select>\n\n							</div>\n\n		\n\n							<div class="opcion_m">\n\n								<input type="text" class="form-control" placeholder="Volumen">\n\n							</div>\n\n							\n\n							<div class="opcion_m">\n\n								<select class="form-control">\n\n									<option disabled selected hidden>Elemento</option>\n\n									<option>opcion 1</option>\n\n									<option>opcion 2</option>\n\n									<option>opcion 3</option>\n\n								</select>\n\n							</div>\n\n						</form>\n\n					</div>\n\n					\n\n					<hr class="hr-verde">\n\n		\n\n					<div class="margin-bottom-30 col-12 formulario-elegir">\n\n						<h4 class="bajada-form text-center">Distribuir Carga</h4>\n\n						<form class="was-validated">\n\n							<h6 class="">Distribuir carga?</h6>\n\n							<div class="custom-control custom-radio custom-control-inline">\n\n								<input type="radio" class="custom-control-input" id="customControlValidation00" name="radio-stacked-00" required >\n\n								<label class="custom-control-label" for="customControlValidation00">Si</label>\n\n							</div>\n\n							<div class="custom-control custom-radio custom-control-inline">\n\n								<input type="radio" class="custom-control-input" id="customControlValidation01" name="radio-stacked-00" required>\n\n								<label class="custom-control-label" for="customControlValidation01">No</label>\n\n							</div>\n\n						</form>\n\n		\n\n						<form class="margin-top-20 padding-bottom-10">\n\n							<div class="distribuir">\n\n								<label class="camion">Camión 1</label>\n\n								<select class="form-control" disabled>\n\n										<option>7m3</option>\n\n										<option>opcion 1</option>\n\n										<option>opcion 2</option>\n\n										<option>opcion 3</option>\n\n								</select>\n\n							</div>\n\n		\n\n							<div class="distribuir">\n\n								<label>Camión 2</label>\n\n								<select class="form-control" disabled>\n\n										<option>7m3</option>\n\n										<option>opcion 1</option>\n\n										<option>opcion 2</option>\n\n										<option>opcion 3</option>\n\n								</select>\n\n							</div>\n\n		\n\n						</form>	\n\n					</div>\n\n		\n\n					<hr class="hr-verde">\n\n		\n\n					<div class="padding-bottom-20 col-12">\n\n						<h4 class="bajada-form text-center">Elegir Horario</h4>		\n\n						<div class="distribuir">\n\n							<label>Seleccione Horario</label>\n\n							<select class="form-control">\n\n								<option disabled selected hidden>Horario</option>\n\n								<option>opcion 1</option>\n\n								<option>opcion 2</option>\n\n								<option>opcion 3</option>\n\n							</select>\n\n						</div>\n\n						\n\n						<div class="distribuir">\n\n							<label>Seleccione Frecuencia</label>\n\n							<select class="form-control">\n\n								<option disabled selected hidden>Frecuencia</option>\n\n								<option>opcion 1</option>\n\n								<option>opcion 2</option>\n\n								<option>opcion 3</option>\n\n							</select>\n\n						</div>\n\n					</div>\n\n		\n\n					<hr class="hr-verde">\n\n		\n\n					<div class="formulario-elegir margin-bottom-30 col-12">\n\n						<h4 class="bajada-form text-center">Elegir Servicios</h4>\n\n						<form class="was-validated">\n\n							<div class="col  margin-bottom-20">\n\n								<h6>Bomba:</h6>\n\n								<div class="custom-control custom-radio custom-control-inline">\n\n									<input type="radio" class="custom-control-input" id="customControlValidation4" name="radio-stacked-3" required >\n\n									<label class="custom-control-label" for="customControlValidation4">Si</label>\n\n								</div>\n\n		\n\n								<div class="custom-control custom-radio custom-control-inline">\n\n									<input type="radio" class="custom-control-input" id="customControlValidation5" name="radio-stacked-3" required>\n\n									<label class="custom-control-label" for="customControlValidation5">No</label>\n\n								</div>\n\n							</div>\n\n							\n\n							<div class="col margin-bottom-30">\n\n								<h6>Muestra de Laboratorio:</h6>\n\n								<div class="custom-control custom-radio custom-control-inline">\n\n									<input type="radio" class="custom-control-input" id="customControlValidation6" name="radio-stacked-4" required >\n\n									<label class="custom-control-label" for="customControlValidation6">Si</label>\n\n								</div>\n\n								<div class="custom-control custom-radio custom-control-inline">\n\n									<input type="radio" class="custom-control-input" id="customControlValidation7" name="radio-stacked-4" required>\n\n									<label class="custom-control-label" for="customControlValidation7">No</label>\n\n								</div>\n\n							</div>\n\n		\n\n							<hr class="hr-verde">\n\n		\n\n							<div class="formulario-elegir padding-top-10 margin-bottom-30">\n\n								<a class="btn-select-verde" on-click="goToPrgPedidoHorario()">\n\n									Siguiente\n\n								</a>\n\n							</div>\n\n		\n\n						</form>\n\n					</div>\n\n							\n\n				</div>\n\n			</ion-content>	\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-dia\prg-pedido-dia.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], PrgPedidoDiaPage);
     return PrgPedidoDiaPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=prg-pedido-dia.js.map
@@ -182,9 +179,9 @@ var PrgPedidoDiaPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoHorarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -224,19 +221,63 @@ var PrgPedidoHorarioPage = /** @class */ (function () {
     };
     PrgPedidoHorarioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-prg-pedido-horario',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-horario/prg-pedido-horario.html"*/'<ion-header>\n    <ion-toolbar>\n      <ion-buttons left>\n        <button ion-button left menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title center>HORARIO</ion-title>\n      <ion-buttons right>\n          <button ion-button on-click="goToPrincipal()">\n              <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n    </ion-toolbar>\n</ion-header>\n<ion-content padding >    \n          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion">\n            <div class="col-12 margin-bottom-30">\n              <div class="text-center color_naranjo">\n                <h6>En base a tus preferencias, estos son los horarios que tenemos disponibles:</h6>\n              </div>\n            </div>\n    \n    \n            <div class="col-12 lista-horario" >\n              <label class="container" style="padding-left: 30px">Lunes 13 - 10:30\n                <input type="radio" name="horario">\n                <span class="checkmark"></span>\n              </label>\n            </div>\n            <div class="col-12 lista-horario">\n              <label class="container" style="padding-left: 30px">Lunes 13 - 11:00\n                <input type="radio" name="horario">\n                <span class="checkmark"></span>\n              </label>\n            </div>\n            <div class="col-12 lista-horario" >\n              <label class="container" style="padding-left: 30px">Lunes 13 - 12:30\n                <input type="radio" name="horario">\n                <span class="checkmark"></span>\n              </label>\n            </div>		\n            <div class="col-12 lista-horario">\n              <label class="container" style="padding-left: 30px">Lunes 13 - 13:30\n                <input type="radio" name="horario">\n                <span class="checkmark"></span>\n              </label>\n            </div>\n            \n            <div class="col-12 margin-bottom-30">\n              <a class="form-control btn-select-verde" on-click="goToPrgPedidoConfirmacion()">Finalizar</a>\n              \n              <a href="#" class="form-control btn-select-azul">Ver próxima fecha</a>\n            </div>\n            \n          \n        </div>\n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/prg-pedido-horario/prg-pedido-horario.html"*/,
+            selector: 'page-prg-pedido-horario',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-horario\prg-pedido-horario.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-buttons left>\n\n        <button ion-button left menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title center>HORARIO</ion-title>\n\n      <ion-buttons right>\n\n          <button ion-button on-click="goToPrincipal()">\n\n              <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n    </ion-toolbar>\n\n</ion-header>\n\n<ion-content padding >    \n\n          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion">\n\n            <div class="col-12 margin-bottom-30">\n\n              <div class="text-center color_naranjo">\n\n                <h6>En base a tus preferencias, estos son los horarios que tenemos disponibles:</h6>\n\n              </div>\n\n            </div>\n\n    \n\n    \n\n            <div class="col-12 lista-horario" >\n\n              <label class="container" style="padding-left: 30px">Lunes 13 - 10:30\n\n                <input type="radio" name="horario">\n\n                <span class="checkmark"></span>\n\n              </label>\n\n            </div>\n\n            <div class="col-12 lista-horario">\n\n              <label class="container" style="padding-left: 30px">Lunes 13 - 11:00\n\n                <input type="radio" name="horario">\n\n                <span class="checkmark"></span>\n\n              </label>\n\n            </div>\n\n            <div class="col-12 lista-horario" >\n\n              <label class="container" style="padding-left: 30px">Lunes 13 - 12:30\n\n                <input type="radio" name="horario">\n\n                <span class="checkmark"></span>\n\n              </label>\n\n            </div>		\n\n            <div class="col-12 lista-horario">\n\n              <label class="container" style="padding-left: 30px">Lunes 13 - 13:30\n\n                <input type="radio" name="horario">\n\n                <span class="checkmark"></span>\n\n              </label>\n\n            </div>\n\n            \n\n            <div class="col-12 margin-bottom-30">\n\n              <a class="form-control btn-select-verde" on-click="goToPrgPedidoConfirmacion()">Finalizar</a>\n\n              \n\n              <a href="#" class="form-control btn-select-azul">Ver próxima fecha</a>\n\n            </div>\n\n            \n\n          \n\n        </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-pedido-horario\prg-pedido-horario.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], PrgPedidoHorarioPage);
     return PrgPedidoHorarioPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=prg-pedido-horario.js.map
 
 /***/ }),
 
-/***/ 113:
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgProductosDisponiblesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrgProductosDisponiblesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrgProductosDisponiblesPage = /** @class */ (function () {
+    function PrgProductosDisponiblesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PrgProductosDisponiblesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrgProductosDisponiblesPage');
+    };
+    PrgProductosDisponiblesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-prg-productos-disponibles',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-productos-disponibles\prg-productos-disponibles.html"*/'<ion-header>\n	<ion-toolbar>\n	  <ion-buttons left>\n	    <button ion-button left menuToggle>\n	      <ion-icon name="menu"></ion-icon>\n	    </button>\n	  </ion-buttons>\n	  <ion-title center>Selección</ion-title>\n	  <ion-buttons right>\n        <button ion-button on-click="goToPrincipal()">\n            <ion-icon name="home"></ion-icon>\n        </button>\n      </ion-buttons>\n	</ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion padding-top-5">\n			\n    <div class="row resultado justify-content-center">\n      <div class="col-12">\n        <ul class="list-group margin-top-0">\n          <li class="list-group-item relative list-bandeja">\n            <div class="col-10">\n              <h6 class="pedidos-prog color-azul-oscuro"><b>Sebastian Elcano 33, Las Condes.</b></h6>\n              <div class="progress">\n                <div class="progress-bar bg-naranja" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>\n              </div>\n              <p class="bandeja margin-top-5"><b>50/600 m3.</b></p>\n            </div>\n            \n            <a class="icon-list-group-2 color-azul-oscuro" href="productos-detalle.html" role="button">\n              <i class="fas fa-angle-right"></i>\n            </a>\n          </li>\n\n          <li class="list-group-item relative list-bandeja">\n            <div class="col-10">\n              <h6 class="pedidos-prog color-azul-oscuro"><b>Sebastian Elcano 33, Las Condes.</b></h6>\n              <div class="progress">\n                <div class="progress-bar bg-naranja" role="progressbar" style="width:35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>\n              </div>\n              <p class="bandeja margin-top-5"><b>70/200 m3.</b></p>\n            </div>\n            \n            <a class="icon-list-group-2 color-azul-oscuro" href="productos-detalle.html" role="button">\n              <i class="fas fa-angle-right"></i>\n            </a>\n          </li>\n\n          <li class="list-group-item relative list-bandeja">\n            <div class="col-10">\n              <h6 class="pedidos-prog color-azul-oscuro"><b>Sebastian Elcano 33, Las Condes.</b></h6>\n              <div class="progress">\n                <div class="progress-bar bg-azul-oscuro" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>\n              </div>\n              <p class="bandeja margin-top-5"><b>300/600 m3.</b></p>\n            </div>\n            \n            <a class="icon-list-group-2 color-azul-oscuro" href="productos-detalle.html" role="button">\n              <i class="fas fa-angle-right"></i>\n            </a>\n          </li>\n\n          <li class="list-group-item relative list-bandeja">\n            <div class="col-10">\n              <h6 class="pedidos-prog color-azul-oscuro"><b>Sebastian Elcano 33, Las Condes.</b></h6>\n              <div class="progress">\n                <div class="progress-bar bg-azul-oscuro" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>\n              </div>\n              <p class="bandeja margin-top-5"><b>650/700 m3.</b></p>\n            </div>\n            \n            <a class="icon-list-group-2 color-azul-oscuro" href="productos-detalle.html" role="button">\n              <i class="fas fa-angle-right"></i>\n            </a>\n          </li>\n\n          <li class="list-group-item relative list-bandeja">\n            <div class="col-10">\n              <h6 class="pedidos-prog color-azul-oscuro"><b>Sebastian Elcano 33, Las Condes.</b></h6>\n              <div class="progress">\n                <div class="progress-bar bg-azul-oscuro" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>\n              </div>\n              <p class="bandeja margin-top-5"><b>650/700 m3.</b></p>\n            </div>\n            \n            <a class="icon-list-group-2 color-azul-oscuro" href="productos-detalle.html" role="button">\n              <i class="fas fa-angle-right"></i>\n            </a>\n          </li>\n          \n        </ul>	\n          </div>\n      </div>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-productos-disponibles\prg-productos-disponibles.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrgProductosDisponiblesPage);
+    return PrgProductosDisponiblesPage;
+}());
+
+//# sourceMappingURL=prg-productos-disponibles.js.map
+
+/***/ }),
+
+/***/ 114:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -249,28 +290,32 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 113;
+webpackEmptyAsyncContext.id = 114;
 
 /***/ }),
 
-/***/ 154:
+/***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/prg-pedido-confirmacion/prg-pedido-confirmacion.module": [
-		276,
-		3
+		277,
+		4
 	],
 	"../pages/prg-pedido-dia/prg-pedido-dia.module": [
-		277,
-		2
+		278,
+		3
 	],
 	"../pages/prg-pedido-error/prg-pedido-error.module": [
-		278,
-		1
+		279,
+		2
 	],
 	"../pages/prg-pedido-horario/prg-pedido-horario.module": [
-		279,
+		280,
+		1
+	],
+	"../pages/prg-productos-disponibles/prg-productos-disponibles.module": [
+		281,
 		0
 	]
 };
@@ -285,19 +330,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 154;
+webpackAsyncContext.id = 155;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 155:
+/***/ 156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdlProgramacionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -334,7 +379,7 @@ var MdlProgramacionPage = /** @class */ (function () {
     ], MdlProgramacionPage.prototype, "nav", void 0);
     MdlProgramacionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mdl-programacion',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/mdl-programacion/mdl-programacion.html"*/'<!--\n  Generated template for the MdlProgramacionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>  \n     <ion-toolbar>\n      <ion-buttons left>\n        <button ion-button left menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title>Próximo Pedido</ion-title>\n      <ion-buttons right>\n        <button ion-button on-click="goToPrincipal()">\n            <ion-icon name="home"></ion-icon>\n        </button>\n      </ion-buttons>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n        <div padding class="row proximo">\n        <ion-grid padding>\n          <ion-row>\n            <ion-col class="col-xs-6 col-md-6 info">\n                <label>HN25(10)30-08</label>\n                <p>Sin Bomba</p>\n                <p>Sin Muestra de Laboratorio</p>\n            </ion-col>\n            <ion-col>\n                <img src="../../assets/img/grafico.png">\n            </ion-col>\n          </ion-row>\n          <ion-row>\n            <ion-col class="col-xs-4 col-md-4 info inf">\n              <p>ETA</p>\n            </ion-col>\n            <ion-col class="col-xs-4 col-md-4 info inf">\n              <p>Cantidad</p>\n            </ion-col>\n            <ion-col class="col-xs-4 col-md-4 info inf">\n              <p>Camiones</p>\n            </ion-col>            \n          </ion-row>\n          <ion-row class="col-xs-4 col-md-4 info inf">\n              <ion-col>\n                <label >13:45</label>\n              </ion-col>\n              <ion-col>\n                <label>21 m3</label>\n              </ion-col>\n              <ion-col>\n                <label>3</label>\n              </ion-col>            \n            </ion-row>\n        </ion-grid>  \n\n        \n            \n        \n            <div class="offset-md-1 col-md-10 info" style="margin-bottom: 20px;">\n              <p>*tiempo estimado de llegada</p>\n            </div>\n            \n          </div>\n        \n          <div class="row estado">\n            <div class=" offset-md-1 col-md-10">\n              <i class="fas fa-map-marker-alt"></i><label> Estado de camiones</label>\n            </div>\n          </div>\n        \n          <div class="row resultado">\n            <div class="offset-md-1 col-md-10">\n              <div>\n                      <ul>\n                        <li class="li1">Camión 1</li>\n                        <li class="li2">Descargando en obra</li>\n                        <li class="li3">Operador: Luis M. Salas Pérez</li>\n                      </ul>\n                    </div> \n                    <div>\n                      <ul>\n                        <li class="li1">Camión 2: En ruta</li>\n                        <li class="li2">Hora de llegada estimada: 14:45</li>\n                        <li class="li3">Operador: José Manuel Peña Soza</li>\n                      </ul>\n                    </div> \n                    <div>\n                      <ul>\n                        <li class="li1">Camión 3: En sucursal</li>\n                        <li class="li2">Hora de llegada estimada: 15:45</li>\n                        <li class="li3">Operador: Luis M. Salas Soza</li>\n                      </ul>\n                    </div> \n            </div>\n          </div>\n  </ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/mdl-programacion/mdl-programacion.html"*/,
+            selector: 'page-mdl-programacion',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\mdl-programacion\mdl-programacion.html"*/'<!--\n\n  Generated template for the MdlProgramacionPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>  \n\n     <ion-toolbar>\n\n      <ion-buttons left>\n\n        <button ion-button left menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title>Próximo Pedido</ion-title>\n\n      <ion-buttons right>\n\n        <button ion-button on-click="goToPrincipal()">\n\n            <ion-icon name="home"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" id="page3">\n\n        <div padding class="row proximo">\n\n        <ion-grid padding>\n\n          <ion-row>\n\n            <ion-col class="col-xs-6 col-md-6 info">\n\n                <label>HN25(10)30-08</label>\n\n                <p>Sin Bomba</p>\n\n                <p>Sin Muestra de Laboratorio</p>\n\n            </ion-col>\n\n            <ion-col>\n\n                <img src="../../assets/img/grafico.png">\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col class="col-xs-4 col-md-4 info inf">\n\n              <p>ETA</p>\n\n            </ion-col>\n\n            <ion-col class="col-xs-4 col-md-4 info inf">\n\n              <p>Cantidad</p>\n\n            </ion-col>\n\n            <ion-col class="col-xs-4 col-md-4 info inf">\n\n              <p>Camiones</p>\n\n            </ion-col>            \n\n          </ion-row>\n\n          <ion-row class="col-xs-4 col-md-4 info inf">\n\n              <ion-col>\n\n                <label >13:45</label>\n\n              </ion-col>\n\n              <ion-col>\n\n                <label>21 m3</label>\n\n              </ion-col>\n\n              <ion-col>\n\n                <label>3</label>\n\n              </ion-col>            \n\n            </ion-row>\n\n        </ion-grid>  \n\n\n\n        \n\n            \n\n        \n\n            <div class="offset-md-1 col-md-10 info" style="margin-bottom: 20px;">\n\n              <p>*tiempo estimado de llegada</p>\n\n            </div>\n\n            \n\n          </div>\n\n        \n\n          <div class="row estado">\n\n            <div class=" offset-md-1 col-md-10">\n\n              <i class="fas fa-map-marker-alt"></i><label> Estado de camiones</label>\n\n            </div>\n\n          </div>\n\n        \n\n          <div class="row resultado">\n\n            <div class="offset-md-1 col-md-10">\n\n              <div>\n\n                      <ul>\n\n                        <li class="li1">Camión 1</li>\n\n                        <li class="li2">Descargando en obra</li>\n\n                        <li class="li3">Operador: Luis M. Salas Pérez</li>\n\n                      </ul>\n\n                    </div> \n\n                    <div>\n\n                      <ul>\n\n                        <li class="li1">Camión 2: En ruta</li>\n\n                        <li class="li2">Hora de llegada estimada: 14:45</li>\n\n                        <li class="li3">Operador: José Manuel Peña Soza</li>\n\n                      </ul>\n\n                    </div> \n\n                    <div>\n\n                      <ul>\n\n                        <li class="li1">Camión 3: En sucursal</li>\n\n                        <li class="li2">Hora de llegada estimada: 15:45</li>\n\n                        <li class="li3">Operador: Luis M. Salas Soza</li>\n\n                      </ul>\n\n                    </div> \n\n            </div>\n\n          </div>\n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\mdl-programacion\mdl-programacion.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], MdlProgramacionPage);
@@ -345,14 +390,14 @@ var MdlProgramacionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -376,7 +421,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/login/login.html"*/'<!--\n  Generated template for the ApiuxPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <!-- <ion-navbar>\n   <ion-title>Cementos BIO BIO</ion-title>\n   <button ion-button menuToggle>\n     <ion-icon name="menu"></ion-icon>\n     </button>\n   </ion-navbar> -->\n </ion-header>\n \n <ion-content padding class="base" no-bounce>\n \n   <div class="row">\n     <div class="col-md-12">\n       <div class="col-md-10 offset-md-1 login">\n         <div class="row">\n           <div class="col-md-12" style="text-align: center;">\n             <img src="../../assets/img/logo.png">\n           </div>\n           <div class=" col-md-12 login-input">\n             <div class="offset-md-1 col-md-10">\n               <input type="text" class="form-control input" placeholder="Usuario">\n             </div>\n             <br>\n             <div class=" offset-md-1 col-md-10">\n               <input type="password" class="form-control input" placeholder="Contraseña">\n             </div>\n             <br>\n             <div class=" offset-md-1 col-md-10" style="text-align: center;">\n               <a class="form-control botonLogin" on-click="goToPrincipal()">Iniciar sesión</a>\n             </div>\n             <br>\n             <div class=" offset-md-1 col-md-10" style="text-align: center;">\n               <a class="olvido">¿Olvidaste tu contraseña? </a><p style="display: inline-block;">&nbsp;&nbsp;|&nbsp;&nbsp;</p><a class="olvido"> ¿Olvidaste tu usuario?</a>\n             </div>\n           </div>\n         </div>\n       </div>\n     </div>\n   </div>\n </ion-content>'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/login/login.html"*/
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\login\login.html"*/'<!--\n\n  Generated template for the ApiuxPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <!-- <ion-navbar>\n\n   <ion-title>Cementos BIO BIO</ion-title>\n\n   <button ion-button menuToggle>\n\n     <ion-icon name="menu"></ion-icon>\n\n     </button>\n\n   </ion-navbar> -->\n\n </ion-header>\n\n \n\n <ion-content padding class="base" no-bounce>\n\n \n\n   <div class="row">\n\n     <div class="col-md-12">\n\n       <div class="col-md-10 offset-md-1 login">\n\n         <div class="row">\n\n           <div class="col-md-12" style="text-align: center;">\n\n             <img src="../../assets/img/logo.png">\n\n           </div>\n\n           <div class=" col-md-12 login-input">\n\n             <div class="offset-md-1 col-md-10">\n\n               <input type="text" class="form-control input" placeholder="Usuario">\n\n             </div>\n\n             <br>\n\n             <div class=" offset-md-1 col-md-10">\n\n               <input type="password" class="form-control input" placeholder="Contraseña">\n\n             </div>\n\n             <br>\n\n             <div class=" offset-md-1 col-md-10" style="text-align: center;">\n\n               <a class="form-control botonLogin" on-click="goToPrincipal()">Iniciar sesión</a>\n\n             </div>\n\n             <br>\n\n             <div class=" offset-md-1 col-md-10" style="text-align: center;">\n\n               <a class="olvido">¿Olvidaste tu contraseña? </a><p style="display: inline-block;">&nbsp;&nbsp;|&nbsp;&nbsp;</p><a class="olvido"> ¿Olvidaste tu usuario?</a>\n\n             </div>\n\n           </div>\n\n         </div>\n\n       </div>\n\n     </div>\n\n   </div>\n\n </ion-content>'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\login\login.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], LoginPage);
@@ -387,13 +432,13 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(224);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -401,32 +446,34 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 223:
+/***/ 224:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_principal_principal__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mdl_programacion_mdl_programacion__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_principal_principal__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mdl_programacion_mdl_programacion__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -457,7 +504,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
                 __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -466,7 +514,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/prg-pedido-confirmacion/prg-pedido-confirmacion.module#PrgPedidoConfirmacionPageModule', name: 'PrgPedidoConfirmacionPage', segment: 'prg-pedido-confirmacion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-dia/prg-pedido-dia.module#PrgPedidoDiaPageModule', name: 'PrgPedidoDiaPage', segment: 'prg-pedido-dia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-error/prg-pedido-error.module#PrgPedidoErrorPageModule', name: 'PrgPedidoErrorPage', segment: 'prg-pedido-error', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/prg-pedido-horario/prg-pedido-horario.module#PrgPedidoHorarioPageModule', name: 'PrgPedidoHorarioPage', segment: 'prg-pedido-horario', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/prg-pedido-horario/prg-pedido-horario.module#PrgPedidoHorarioPageModule', name: 'PrgPedidoHorarioPage', segment: 'prg-pedido-horario', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/prg-productos-disponibles/prg-productos-disponibles.module#PrgProductosDisponiblesPageModule', name: 'PrgProductosDisponiblesPage', segment: 'prg-productos-disponibles', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -481,7 +530,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
                 __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
                 __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */]
+                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
@@ -497,18 +547,14 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 266:
+/***/ 25:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrincipalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -518,6 +564,54 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
+
+var PrincipalPage = /** @class */ (function () {
+    function PrincipalPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    PrincipalPage.prototype.goToPrincipal = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */]);
+    };
+    PrincipalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-principal',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\principal\principal.html"*/'<!--\n\n  Generated template for the FernandoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar hideBackButton="true">\n\n    <ion-title>Elección de Usuario</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class="difuminado-fondo">\n\n        <div class="row eleccion">\n\n          <div class="col-md-12">\n\n            <button ion-button icon-bus color="secondary" on-click="goToPrincipal()" text-wrap padding class="button customBtn">\n\n                <ion-icon name="bus" padding ></ion-icon>\n\n                Programación de Hormigón premezclado\n\n            </button>\n\n          </div>\n\n          <br>\n\n            <div class="col-md-12">\n\n              <button ion-button icon-construct color="secondary" class="button customBtn" >\n\n                  <ion-icon name="construct" padding ></ion-icon>\n\n                    Gestión de Obras\n\n                </button>\n\n            </div>\n\n            <br>\n\n            <div class="col-md-12">\n\n                <button ion-button icon-beaker color="secondary" class="button customBtn">\n\n                    <ion-icon name="beaker" padding ></ion-icon>\n\n                      Programación de Cemento\n\n                  </button>\n\n            </div>\n\n        </div>    \n\n    \n\n    \n\n    \n\n    <script src="js/jquery3.3.1.js" type="text/javascript"></script>\n\n    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>\n\n    <script src="js/bootstrap.min.js" type="text/javascript"></script>\n\n    \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\principal\principal.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+    ], PrincipalPage);
+    return PrincipalPage;
+}());
+
+//# sourceMappingURL=principal.js.map
+
+/***/ }),
+
+/***/ 267:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(104);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 
 
 
@@ -536,7 +630,7 @@ var MyApp = /** @class */ (function () {
         this.pages = [
             { title: 'Hacer pedido', component: __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */] },
             { title: 'Pedidos programados', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
-            { title: 'Productos disponibles', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
+            { title: 'Productos disponibles', component: __WEBPACK_IMPORTED_MODULE_7__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */] },
             { title: 'Resultados de laboratorio', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
             { title: 'Perfil de obra', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
             { title: 'Contactar ejecutivo', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
@@ -562,7 +656,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -573,13 +667,13 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -597,7 +691,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Ionic Menu Starter</h3>\n\n\n\n  <p>\n\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n\n  </p>\n\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -608,13 +702,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 275:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -653,7 +747,7 @@ var ListPage = /** @class */ (function () {
     };
     ListPage = ListPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/list/list.html"*/
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\list\list.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ListPage);
@@ -663,49 +757,7 @@ var ListPage = /** @class */ (function () {
 
 //# sourceMappingURL=list.js.map
 
-/***/ }),
-
-/***/ 40:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrincipalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__ = __webpack_require__(155);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var PrincipalPage = /** @class */ (function () {
-    function PrincipalPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    PrincipalPage.prototype.goToPrincipal = function (params) {
-        if (!params)
-            params = {};
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */]);
-    };
-    PrincipalPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-principal',template:/*ion-inline-start:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/principal/principal.html"*/'<!--\n  Generated template for the FernandoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar hideBackButton="true">\n    <ion-title>Elección de Usuario</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="difuminado-fondo">\n        <div class="row eleccion">\n          <div class="col-md-12">\n            <button ion-button icon-bus color="secondary" on-click="goToPrincipal()" text-wrap padding class="button customBtn">\n                <ion-icon name="bus" padding ></ion-icon>\n                Programación de Hormigón premezclado\n            </button>\n          </div>\n          <br>\n            <div class="col-md-12">\n              <button ion-button icon-construct color="secondary" class="button customBtn" >\n                  <ion-icon name="construct" padding ></ion-icon>\n                    Gestión de Obras\n                </button>\n            </div>\n            <br>\n            <div class="col-md-12">\n                <button ion-button icon-beaker color="secondary" class="button customBtn">\n                    <ion-icon name="beaker" padding ></ion-icon>\n                      Programación de Cemento\n                  </button>\n            </div>\n        </div>    \n    \n    \n    \n    <script src="js/jquery3.3.1.js" type="text/javascript"></script>\n    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>\n    <script src="js/bootstrap.min.js" type="text/javascript"></script>\n    \n</ion-content>\n'/*ion-inline-end:"/Users/fdoulloa/Documents/Github/programador-sidemenu/src/pages/principal/principal.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], PrincipalPage);
-    return PrincipalPage;
-}());
-
-//# sourceMappingURL=principal.js.map
-
 /***/ })
 
-},[200]);
+},[201]);
 //# sourceMappingURL=main.js.map

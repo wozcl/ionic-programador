@@ -3,12 +3,10 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { PrincipalPage } from '../pages/principal/principal';
-import { MdlProgramacionPage } from '../pages/mdl-programacion/mdl-programacion';
 import { LoginPage } from '../pages/login/login';
 import { PrgPedidoDiaPage } from '../pages/prg-pedido-dia/prg-pedido-dia';
+import { PrgProductosDisponiblesPage } from '../pages/prg-productos-disponibles/prg-productos-disponibles'
 
 @Component({
   templateUrl: 'app.html'
@@ -27,7 +25,7 @@ export class MyApp {
     this.pages = [
       { title: 'Hacer pedido', component: PrgPedidoDiaPage},
       { title: 'Pedidos programados', component: PrincipalPage},
-      { title: 'Productos disponibles', component: PrincipalPage},
+      { title: 'Productos disponibles', component: PrgProductosDisponiblesPage},
       { title: 'Resultados de laboratorio', component: PrincipalPage},
       { title: 'Perfil de obra', component: PrincipalPage},
       { title: 'Contactar ejecutivo', component: PrincipalPage},
