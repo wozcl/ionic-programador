@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 278:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPedidoDiaPageModule", function() { return PrgPedidoDiaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrgPerfilObraPageModule", function() { return PrgPerfilObraPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_perfil_obra__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PrgPedidoDiaPageModule = /** @class */ (function () {
-    function PrgPedidoDiaPageModule() {
+var PrgPerfilObraPageModule = /** @class */ (function () {
+    function PrgPerfilObraPageModule() {
     }
-    PrgPedidoDiaPageModule = __decorate([
+    PrgPerfilObraPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__prg_perfil_obra__["a" /* PrgPerfilObraPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_pedido_dia__["a" /* PrgPedidoDiaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__prg_perfil_obra__["a" /* PrgPerfilObraPage */]),
             ],
         })
-    ], PrgPedidoDiaPageModule);
-    return PrgPedidoDiaPageModule;
+    ], PrgPerfilObraPageModule);
+    return PrgPerfilObraPageModule;
 }());
 
-//# sourceMappingURL=prg-pedido-dia.module.js.map
+//# sourceMappingURL=prg-perfil-obra.module.js.map
 
 /***/ })
 

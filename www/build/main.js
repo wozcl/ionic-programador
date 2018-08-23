@@ -1,13 +1,58 @@
-webpackJsonp([5],{
+webpackJsonp([9],{
 
 /***/ 100:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgContactoEjecutivoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrgContactoEjecutivoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrgContactoEjecutivoPage = /** @class */ (function () {
+    function PrgContactoEjecutivoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PrgContactoEjecutivoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrgContactoEjecutivoPage');
+    };
+    PrgContactoEjecutivoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-prg-contacto-ejecutivo',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-contacto-ejecutivo\prg-contacto-ejecutivo.html"*/'<ion-header>\n    <ion-toolbar>\n      <ion-buttons left>\n        <button ion-button left menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title center>HORARIO</ion-title>\n      <ion-buttons right>\n          <button ion-button on-click="goToPrincipal()">\n              <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n    </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n    <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n        <div class="row proximo text-center padding-bottom-20">\n          <div class="col-12 col-sm-12 justify-content-center margin-top-20 ">\n            <img src="https://mybackpaincoach.com/wp-content/uploads/2016/04/ian-profile-square-300x300.jpg" class="rounded-circle img-fluid profile-img" >\n          </div>\n  \n          <div class="col-12 col-sm-12 info">\n            <div class="row full-alto">\n              <div class="col-12 align-self-center">\n                <h4 class="margin-top-20">Felipe Martinez Soto</h4>\n                <p>Ejecutivo Premium CBB</p>\n              </div>\n            </div>\n          </div>\n        </div>\n  \n        <div class="row estado border-sombra">						\n          <div class="col-2 text-center">\n            <i class="fas fa-envelope icon-grande"></i>\n          </div>\n          <div class="col">\n            <a href="#"class="estado-camiones">\n              <h3 class="font-ancho-normal contacto-text">Felipe.martinez@cbb.cl</h3>\n            </a>\n          </div>\n        </div>\n  \n        <div class="row estado border-sombra">						\n          <div class="col-2 text-center">\n            <i class="fas fa-mobile-alt icon-grande"></i>\n          </div>\n          <div class="col">\n            <a href="#"class="estado-camiones">\n              <h3 class="font-ancho-normal contacto-text">+56 2 2290 7123 </h3>\n            </a>\n          </div>\n        </div>\n  \n        \n      </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-contacto-ejecutivo\prg-contacto-ejecutivo.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrgContactoEjecutivoPage);
+    return PrgContactoEjecutivoPage;
+}());
+
+//# sourceMappingURL=prg-contacto-ejecutivo.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoConfirmacionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_error_prg_pedido_error__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_error_prg_pedido_error__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59,13 +104,13 @@ var PrgPedidoConfirmacionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 101:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoErrorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -114,14 +159,14 @@ var PrgPedidoErrorPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 102:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoDiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -173,14 +218,14 @@ var PrgPedidoDiaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPedidoHorarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -232,13 +277,58 @@ var PrgPedidoHorarioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgPerfilObraPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrgPerfilObraPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrgPerfilObraPage = /** @class */ (function () {
+    function PrgPerfilObraPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PrgPerfilObraPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrgPerfilObraPage');
+    };
+    PrgPerfilObraPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-prg-perfil-obra',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-perfil-obra\prg-perfil-obra.html"*/'<ion-header>\n  <ion-toolbar>\n    <ion-buttons left>\n      <button ion-button left menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title center>HORARIO</ion-title>\n    <ion-buttons right>\n        <button ion-button on-click="goToPrincipal()">\n            <ion-icon name="home"></ion-icon>\n        </button>\n      </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n    <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n        <div class="row proximo padding-top-20 padding-bottom-20">\n          <div class="col-4 col-sm-4 justify-content-center">\n            <img src="https://media.glassdoor.com/sqll/352212/cementos-b%C3%ADo-b%C3%ADo-s-a-squarelogo-1505306850815.png" class="img-fluid rounded-circle">\n          </div>\n          <div class="col-8 col-sm-8 info">\n            <div class="row full-alto">\n              <div class="col-12 align-self-center">\n                <h4 class="margin-top-20">Espóz 7692, Vitacura</h4>\n                <p>Vitacura 2000</p>\n                <p>78.026.007-6</p>\n                <p>Loyca Inmobiliaria.</p>\n              </div>\n            </div>\n          </div>\n        </div>\n  \n        <div class="row estado border-sombra padding-bottom-20">										\n          <div class="col padding-top-10">\n            <h3 class="font-ancho-normal">Calificaciones</h3>\n            <p><small>*Buenas calificaciones te permitirá acceder a mejores condiciones para tus pedidos.</small></p>\n            \n            <ul class="list-obra">\n              <li><p><b>5%</b> de pedidos <b>anulados</b> <span class="pull-right">Excelente</span></p></li>\n              <li><p><b>49%</b> de pedidos <b>modificados</b> <span class="pull-right">Critico</span></p></li>\n              <li><p><b>10 min</b> de <b>sobre estadia</b> <span class="pull-right">Regular</span></p></li>\n              <li><p><b>30%</b> de <b>atrasos CBB</b> <span class="pull-right">Malo</span></p></li>\n            </ul>\n          </div>\n        </div>\n        \n      </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-perfil-obra\prg-perfil-obra.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrgPerfilObraPage);
+    return PrgPerfilObraPage;
+}());
+
+//# sourceMappingURL=prg-perfil-obra.js.map
+
+/***/ }),
+
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgProductosDisponiblesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -277,7 +367,97 @@ var PrgProductosDisponiblesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 114:
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgProgramadosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrgProgramadosPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrgProgramadosPage = /** @class */ (function () {
+    function PrgProgramadosPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PrgProgramadosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrgProgramadosPage');
+    };
+    PrgProgramadosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-prg-programados',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-programados\prg-programados.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-buttons left>\n\n        <button ion-button left menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title center>PEDIDOS PROGRAMADOS</ion-title>\n\n      <ion-buttons right>\n\n          <button ion-button on-click="goToPrincipal()">\n\n              <ion-icon name="home"></ion-icon>\n\n          </button>\n\n        </ion-buttons>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  \n\n      <ul class="nav nav-tabs nav-fill" id="tab-menu" role="tablist">\n\n        <li class="nav-item">\n\n            <a class="nav-link active" id="fecha-uno-tab" data-toggle="tab" href="#fecha-uno" role="tab" aria-controls="home" aria-selected="true">Hoy</a>\n\n        </li>\n\n        <li class="nav-item">\n\n            <a class="nav-link" id="fecha-dos-tab" data-toggle="tab" href="#fecha-dos" role="tab" aria-controls="profile" aria-selected="false"><span class="dia-opcion">Martes</span> 13</a>\n\n        </li>\n\n        <li class="nav-item">\n\n            <a class="nav-link" id="fecha-tres-tab" data-toggle="tab" href="#fecha-tres" role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Miercoles</span> 14</a>\n\n        </li>\n\n        <li class="nav-item">\n\n            <a class="nav-link" id="fecha-cuatro-tab" data-toggle="tab" href="#fecha-cuatro" role="tab" aria-controls="contact" aria-selected="false"><span class="dia-opcion">Jueves</span> 15</a>\n\n        </li>\n\n      </ul>\n\n  \n\n      <div class="tab-content" id="myTabContent">\n\n  \n\n        <!-- Inicio Tab uno -->\n\n        <div class="tab-pane fade show active" id="fecha-uno" role="tabpanel" aria-labelledby="fecha-uno">\n\n            <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n\n            <div class="row resultado justify-content-center">\n\n              <div class="col-12">\n\n                <ul class="list-group">\n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="#" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n                  \n\n                </ul>	\n\n                  </div>\n\n                  \n\n              </div>\n\n            </div>\n\n        </div>\n\n        \n\n        <!-- fin tab-uno -->\n\n        \n\n        <!-- Inicio Tab dos -->\n\n        <div class="tab-pane fade" id="fecha-dos" role="tabpanel" aria-labelledby="fecha-dos">\n\n          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n\n            <div class="row resultado justify-content-center">\n\n              <div class="col-12">\n\n                <ul class="list-group">\n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle-2.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle-2.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle-2.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n                  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle-2.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="pro-detalle-2.html" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n                </ul>	\n\n                  </div>\n\n                  \n\n              </div>\n\n            </div>\n\n        </div><!-- fin tab-dos -->\n\n        \n\n        <div class="tab-pane fade" id="fecha-tres" role="tabpanel" aria-labelledby="fecha-tres">\n\n          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n\n            <div class="row resultado justify-content-center">\n\n              <div class="col-12">\n\n                <ul class="list-group">\n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="#" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n                  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="#" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="#" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n                </ul>	\n\n                  </div>\n\n                  \n\n              </div>\n\n            </div>\n\n          \n\n        </div>\n\n        \n\n        <div class="tab-pane fade" id="fecha-cuatro" role="tabpanel" aria-labelledby="fecha-cuatro">\n\n          <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30">\n\n            <div class="row resultado justify-content-center">\n\n              <div class="col-12">\n\n                <ul class="list-group">\n\n                  <li class="list-group-item relative">\n\n                    <h4 class="pedidos-prog">hn25(10)30-18 / 18m3</h4>\n\n                    <p><small>09:00 cada 40 min.</small></p>\n\n                    <a class="icon-list-group" href="#" role="button">\n\n                      <i class="fas fa-chevron-circle-right"></i>\n\n                    </a>\n\n                  </li>\n\n  \n\n                  \n\n                </ul>	\n\n                  </div>\n\n                  \n\n              </div>\n\n            </div>\n\n        </div>\n\n      </div>\n\n  \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-programados\prg-programados.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrgProgramadosPage);
+    return PrgProgramadosPage;
+}());
+
+//# sourceMappingURL=prg-programados.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrgResultadosLaboratorioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrgResultadosLaboratorioPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrgResultadosLaboratorioPage = /** @class */ (function () {
+    function PrgResultadosLaboratorioPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PrgResultadosLaboratorioPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrgResultadosLaboratorioPage');
+    };
+    PrgResultadosLaboratorioPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-prg-resultados-laboratorio',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-resultados-laboratorio\prg-resultados-laboratorio.html"*/'<ion-header>\n    <ion-toolbar>\n      <ion-buttons left>\n        <button ion-button left menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title center>HORARIO</ion-title>\n      <ion-buttons right>\n          <button ion-button on-click="goToPrincipal()">\n              <ion-icon name="home"></ion-icon>\n          </button>\n        </ion-buttons>\n    </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n    <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion padding-top-20">\n        <div class="margin-top-20">\n          <select class="form-control">\n            <option disabled selected hidden>Seleccion Fecha</option>\n            <option>opcion 1</option>\n            <option>opcion 2</option>\n            <option>opcion 3</option>\n          </select>\n        </div>\n        <hr>\n        <div class="row resultado justify-content-center">\n          <div class="col-12">\n            <ul class="list-group margin-top-0">\n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">01/03: Muro</h4>\n                <p><small>S120(50)70-07</small></p>\n                <a class="icon-list-group" href="laboratorio_2.html" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n  \n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">01/03: Losa</h4>\n                <p><small>H020(90)20-08</small></p>\n                <a class="icon-list-group" href="laboratorio_2.html" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n  \n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">18/02: Muro</h4>\n                <p><small>H025(90)20-06</small></p>\n                <a class="icon-list-group" href="#" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n  \n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">13/02: Fundaciones</h4>\n                <p><small>S120(50)70-07</small></p>\n                <a class="icon-list-group" href="#" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n  \n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">07/02: Muro</h4>\n                <p><small>H020(90)20-08</small></p>\n                <a class="icon-list-group" href="#" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n  \n              <li class="list-group-item relative">\n                <h4 class="pedidos-prog">01/02: Muro</h4>\n                <p><small>H025(90)20-06</small></p>\n                <a class="icon-list-group" href="#" role="button">\n                  <i class="fas fa-chevron-circle-right"></i>\n                </a>\n              </li>\n              \n            </ul>	\n              </div>\n          </div>\n      </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\prg-resultados-laboratorio\prg-resultados-laboratorio.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrgResultadosLaboratorioPage);
+    return PrgResultadosLaboratorioPage;
+}());
+
+//# sourceMappingURL=prg-resultados-laboratorio.js.map
+
+/***/ }),
+
+/***/ 118:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -290,32 +470,48 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 114;
+webpackEmptyAsyncContext.id = 118;
 
 /***/ }),
 
-/***/ 155:
+/***/ 159:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"../pages/prg-contacto-ejecutivo/prg-contacto-ejecutivo.module": [
+		279,
+		8
+	],
 	"../pages/prg-pedido-confirmacion/prg-pedido-confirmacion.module": [
-		277,
-		4
+		280,
+		7
 	],
 	"../pages/prg-pedido-dia/prg-pedido-dia.module": [
-		278,
-		3
+		281,
+		6
 	],
 	"../pages/prg-pedido-error/prg-pedido-error.module": [
-		279,
-		2
+		282,
+		5
 	],
 	"../pages/prg-pedido-horario/prg-pedido-horario.module": [
-		280,
-		1
+		283,
+		4
+	],
+	"../pages/prg-perfil-obra/prg-perfil-obra.module": [
+		284,
+		3
 	],
 	"../pages/prg-productos-disponibles/prg-productos-disponibles.module": [
-		281,
+		285,
+		2
+	],
+	"../pages/prg-programados/prg-programados.module": [
+		286,
+		1
+	],
+	"../pages/prg-resultados-laboratorio/prg-resultados-laboratorio.module": [
+		287,
 		0
 	]
 };
@@ -330,18 +526,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 155;
+webpackAsyncContext.id = 159;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 156:
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdlProgramacionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -390,13 +586,13 @@ var MdlProgramacionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__principal_principal__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -432,13 +628,13 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -446,33 +642,37 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 224:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_principal_principal__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_mdl_programacion_mdl_programacion__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_principal_principal__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_mdl_programacion_mdl_programacion__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_prg_pedido_horario_prg_pedido_horario__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_error_prg_pedido_error__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_prg_programados_prg_programados__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_prg_contacto_ejecutivo_prg_contacto_ejecutivo__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_prg_resultados_laboratorio_prg_resultados_laboratorio__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_prg_perfil_obra_prg_perfil_obra__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -496,46 +696,54 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_principal_principal__["a" /* PrincipalPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_principal_principal__["a" /* PrincipalPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_prg_programados_prg_programados__["a" /* PrgProgramadosPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_prg_contacto_ejecutivo_prg_contacto_ejecutivo__["a" /* PrgContactoEjecutivoPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_prg_resultados_laboratorio_prg_resultados_laboratorio__["a" /* PrgResultadosLaboratorioPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_prg_perfil_obra_prg_perfil_obra__["a" /* PrgPerfilObraPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/prg-contacto-ejecutivo/prg-contacto-ejecutivo.module#PrgContactoEjecutivoPageModule', name: 'PrgContactoEjecutivoPage', segment: 'prg-contacto-ejecutivo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-confirmacion/prg-pedido-confirmacion.module#PrgPedidoConfirmacionPageModule', name: 'PrgPedidoConfirmacionPage', segment: 'prg-pedido-confirmacion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-dia/prg-pedido-dia.module#PrgPedidoDiaPageModule', name: 'PrgPedidoDiaPage', segment: 'prg-pedido-dia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-error/prg-pedido-error.module#PrgPedidoErrorPageModule', name: 'PrgPedidoErrorPage', segment: 'prg-pedido-error', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prg-pedido-horario/prg-pedido-horario.module#PrgPedidoHorarioPageModule', name: 'PrgPedidoHorarioPage', segment: 'prg-pedido-horario', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/prg-productos-disponibles/prg-productos-disponibles.module#PrgProductosDisponiblesPageModule', name: 'PrgProductosDisponiblesPage', segment: 'prg-productos-disponibles', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/prg-perfil-obra/prg-perfil-obra.module#PrgPerfilObraPageModule', name: 'PrgPerfilObraPage', segment: 'prg-perfil-obra', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/prg-productos-disponibles/prg-productos-disponibles.module#PrgProductosDisponiblesPageModule', name: 'PrgProductosDisponiblesPage', segment: 'prg-productos-disponibles', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/prg-programados/prg-programados.module#PrgProgramadosPageModule', name: 'PrgProgramadosPage', segment: 'prg-programados', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/prg-resultados-laboratorio/prg-resultados-laboratorio.module#PrgResultadosLaboratorioPageModule', name: 'PrgResultadosLaboratorioPage', segment: 'prg-resultados-laboratorio', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_principal_principal__["a" /* PrincipalPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_principal_principal__["a" /* PrincipalPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_mdl_programacion_mdl_programacion__["a" /* MdlProgramacionPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_prg_pedido_horario_prg_pedido_horario__["a" /* PrgPedidoHorarioPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_prg_pedido_confirmacion_prg_pedido_confirmacion__["a" /* PrgPedidoConfirmacionPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_prg_pedido_error_prg_pedido_error__["a" /* PrgPedidoErrorPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_prg_programados_prg_programados__["a" /* PrgProgramadosPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_prg_contacto_ejecutivo_prg_contacto_ejecutivo__["a" /* PrgContactoEjecutivoPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_prg_resultados_laboratorio_prg_resultados_laboratorio__["a" /* PrgResultadosLaboratorioPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_prg_perfil_obra_prg_perfil_obra__["a" /* PrgPerfilObraPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
             ]
         })
@@ -553,8 +761,8 @@ var AppModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrincipalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_programacion_mdl_programacion__ = __webpack_require__(160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -589,19 +797,23 @@ var PrincipalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 267:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_prg_productos_disponibles_prg_productos_disponibles__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_prg_programados_prg_programados__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_prg_contacto_ejecutivo_prg_contacto_ejecutivo__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_prg_resultados_laboratorio_prg_resultados_laboratorio__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_prg_perfil_obra_prg_perfil_obra__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -611,6 +823,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
+
+
 
 
 
@@ -629,11 +845,11 @@ var MyApp = /** @class */ (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Hacer pedido', component: __WEBPACK_IMPORTED_MODULE_6__pages_prg_pedido_dia_prg_pedido_dia__["a" /* PrgPedidoDiaPage */] },
-            { title: 'Pedidos programados', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
             { title: 'Productos disponibles', component: __WEBPACK_IMPORTED_MODULE_7__pages_prg_productos_disponibles_prg_productos_disponibles__["a" /* PrgProductosDisponiblesPage */] },
-            { title: 'Resultados de laboratorio', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
-            { title: 'Perfil de obra', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
-            { title: 'Contactar ejecutivo', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] },
+            { title: 'Pedidos programados', component: __WEBPACK_IMPORTED_MODULE_8__pages_prg_programados_prg_programados__["a" /* PrgProgramadosPage */] },
+            { title: 'Resultados de laboratorio', component: __WEBPACK_IMPORTED_MODULE_10__pages_prg_resultados_laboratorio_prg_resultados_laboratorio__["a" /* PrgResultadosLaboratorioPage */] },
+            { title: 'Perfil de obra', component: __WEBPACK_IMPORTED_MODULE_11__pages_prg_perfil_obra_prg_perfil_obra__["a" /* PrgPerfilObraPage */] },
+            { title: 'Contactar ejecutivo', component: __WEBPACK_IMPORTED_MODULE_9__pages_prg_contacto_ejecutivo_prg_contacto_ejecutivo__["a" /* PrgContactoEjecutivoPage */] },
             { title: 'Cambiar a gestión de obra', component: __WEBPACK_IMPORTED_MODULE_4__pages_principal_principal__["a" /* PrincipalPage */] }
         ];
     }
@@ -665,99 +881,7 @@ var MyApp = /** @class */ (function () {
 
 //# sourceMappingURL=app.component.js.map
 
-/***/ }),
-
-/***/ 275:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Ionic Menu Starter</h3>\n\n\n\n  <p>\n\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n\n  </p>\n\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\home\home.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], HomePage);
-    return HomePage;
-}());
-
-//# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 276:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ListPage = /** @class */ (function () {
-    function ListPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        // If we navigated to this page, we will have an item available as a nav param
-        this.selectedItem = navParams.get('item');
-        // Let's populate this page with some filler content for funzies
-        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-            'american-football', 'boat', 'bluetooth', 'build'];
-        this.items = [];
-        for (var i = 1; i < 11; i++) {
-            this.items.push({
-                title: 'Item ' + i,
-                note: 'This is item #' + i,
-                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-            });
-        }
-    }
-    ListPage_1 = ListPage;
-    ListPage.prototype.itemTapped = function (event, item) {
-        // That's right, we're pushing to ourselves!
-        this.navCtrl.push(ListPage_1, {
-            item: item
-        });
-    };
-    ListPage = ListPage_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Fernando\Documents\Desarrollo\ionic-programador-sidemenu\src\pages\list\list.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ListPage);
-    return ListPage;
-    var ListPage_1;
-}());
-
-//# sourceMappingURL=list.js.map
-
 /***/ })
 
-},[201]);
+},[205]);
 //# sourceMappingURL=main.js.map
