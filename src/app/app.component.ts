@@ -6,8 +6,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { PrincipalPage } from '../pages/principal/principal';
 import { LoginPage } from '../pages/login/login';
 import { PrgPedidoDiaPage } from '../pages/prg-pedido-dia/prg-pedido-dia';
+import { PrgProductosDisponiblesPage } from '../pages/prg-productos-disponibles/prg-productos-disponibles'
 import { PrgProgramadosPage } from '../pages/prg-programados/prg-programados';
 import { PrgProgramados2Page } from '../pages/prg-programados2/prg-programados2';
+import { PrgContactoEjecutivoPage } from '../pages/prg-contacto-ejecutivo/prg-contacto-ejecutivo';
+import { PrgResultadosLaboratorioPage } from '../pages/prg-resultados-laboratorio/prg-resultados-laboratorio';
+import { PrgPerfilObraPage } from '../pages/prg-perfil-obra/prg-perfil-obra';
 
 @Component({
   templateUrl: 'app.html'
@@ -25,11 +29,11 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Hacer pedido', component: PrgPedidoDiaPage},
+      { title: 'Productos disponibles', component: PrgProductosDisponiblesPage},
       { title: 'Pedidos programados', component: PrgProgramadosPage},
-      { title: 'Productos disponibles', component: PrincipalPage},
-      { title: 'Resultados de laboratorio', component: PrincipalPage},
-      { title: 'Perfil de obra', component: PrincipalPage},
-      { title: 'Contactar ejecutivo', component: PrincipalPage},
+      { title: 'Resultados de laboratorio', component: PrgResultadosLaboratorioPage},
+      { title: 'Perfil de obra', component: PrgPerfilObraPage},
+      { title: 'Contactar ejecutivo', component: PrgContactoEjecutivoPage},
       { title: 'Cambiar a gestión de obra', component: PrincipalPage}
 
 
