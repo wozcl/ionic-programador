@@ -21,9 +21,58 @@ export class MdlProgramacionPage {
 
   constructor(public navCtrl: NavController) {
   }
-
+  @ViewChild('doughnutCanvas') doughnutCanvas;
+  doughnutChart: any;
+  
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MdlProgramacionPage');
+    console.log('ionViewDidLoad GestionObraPage');
+    this.doughnutChart = new Chart(this.doughnutCanvas.nativeElement, { 
+        type: 'doughnut',
+        options: {
+        legend: {
+            display: false,               
+        },
+        elements: {
+        center: {
+          text: '90%',
+              fontStyle: 'Arial', // Default is Arial
+              sidePadding: 20 // Defualt is 20 (as a percentage)
+        }
+    },
+     },
+        data: {
+            // labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            labels: ["Entregados", "Pendientes"],
+            datasets: [{
+                label: '# of Votes',
+                data: [45, 135],
+                /*                   
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',                     
+                    'rgba(255, 99, 132, 0.2)',
+                ],
+                */
+
+                 borderColor :[
+                  "#03334f",
+                  "#03334f",                  
+                ],
+
+                backgroundColor: [
+                                       
+                    'green',
+                    'black',
+                ],
+
+                hoverBackgroundColor: [
+                    "#FF6384",
+                    "#36A2EB",
+                                           
+                ]
+            }]
+        } 
+    });
   }
 
   goToPrincipal(params){
