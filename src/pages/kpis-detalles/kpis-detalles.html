@@ -1,0 +1,61 @@
+
+<ion-header>  
+	<ion-toolbar>
+	  <ion-buttons left>
+	    <button ion-button left on-click="goBack()">
+	      <ion-icon name="arrow-back"></ion-icon>
+	    </button>
+	  </ion-buttons>
+	  <ion-title>KPIs</ion-title>
+	  <ion-buttons right>
+	    <button ion-button on-click="goToPrincipal()">
+	        <ion-icon name="home"></ion-icon>
+	    </button>
+	  </ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+
+<ion-content  style="background:url(assets/img/4uYaB4qTdqa2RTa48E5g_cemento_difuminado.jpg) no-repeat center;background-size:cover;" >
+	<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0 offset-lg-3 offset-xl-3 col-lg-6 col-xl-6 margin-bottom-30 fondo_dia eleccion padding-top-5">		
+		<div class="row resultado justify-content-center padding-top-20">
+			<div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 margin-bottom-30">
+				<div class="fondo-naranja margin-top-10 margin-bottom-30 text-center">
+					<p>* Buenas calificaciones permitirán acceder a mejores condiciones para tu programación en esta obra.</p>
+				</div>
+				
+				<h4>Anulaciones y modificaciones.</h4>
+				<p><small>Sebastian Elcano 33, Las Condes.</small></p>
+				<ion-card>
+			      <ion-card-content>
+			        <canvas #barCanvas></canvas>
+			      </ion-card-content>
+			    </ion-card>
+	        </div>
+
+	        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 margin-bottom-30">
+				<h4>Sobrestadía.</h4>
+				<p><small>Promedio Sebastian Elcano 33, Las Condes.</small></p>
+				<ion-card>
+			      <ion-card-content>
+			        <canvas #barCanvas2></canvas>
+			      </ion-card-content>
+			    </ion-card>
+	        </div>
+
+	        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 margin-bottom-20">
+				<h4>Atrasos CBB.</h4>
+				<p><small>Promedio Sebastian Elcano 33, Las Condes.</small></p>
+				
+			      <ion-card-content>
+			        <canvas #barCanvas3></canvas>
+			      </ion-card-content>
+			 
+	        </div>
+	    </div>
+	</div>
+
+	<script src="js/jquery3.3.1.js" type="text/javascript"></script>
+	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</ion-content>
